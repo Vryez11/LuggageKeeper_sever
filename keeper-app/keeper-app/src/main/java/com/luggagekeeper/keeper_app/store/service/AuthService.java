@@ -1,4 +1,4 @@
-package com.luggagekeeper.keeper_app.store.repository;
+package com.luggagekeeper.keeper_app.store.service;
 
 import com.luggagekeeper.keeper_app.store.dto.request.SignUpRequestDto;
 import com.luggagekeeper.keeper_app.store.dto.request.VerificationRequestDto;
