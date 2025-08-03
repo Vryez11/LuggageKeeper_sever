@@ -6,6 +6,7 @@ import com.luggagekeeper.keeper_app.store.dto.request.VerificationRequestDto;
 import com.luggagekeeper.keeper_app.store.dto.response.EmailCheckResponseDto;
 import com.luggagekeeper.keeper_app.store.dto.response.SignUpResponseDto;
 import com.luggagekeeper.keeper_app.store.dto.response.VerificationResponseDto;
+import com.luggagekeeper.keeper_app.store.repository.AuthService;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import lombok.RequiredArgsConstructor;
