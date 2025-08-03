@@ -36,6 +36,10 @@ public class Store {
 
     @NotBlank
     @Column(nullable = false)
+    private String password;
+
+    @NotBlank
+    @Column(nullable = false)
     private String name;
 
     @Column(name = "phone_number")
